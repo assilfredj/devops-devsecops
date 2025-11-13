@@ -7,5 +7,6 @@ COPY target/*.jar app.jar
 # Expose port (adjust to your app)
 EXPOSE 8080
 
-# Run the app
+# Run the app zz
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
