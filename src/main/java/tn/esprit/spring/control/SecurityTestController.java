@@ -49,4 +49,14 @@ public class SecurityTestController {
        return "<h1>Profile: " + username +
               "</h1><img src='x' onerror='stealCookies()'>";
    }
+
+
+   public class TestGitleaks {
+    public TestGitleaks() {
+        // ⚠️ Ceci est une FAUSSE clé, uniquement pour tester Gitleaks
+        String fakeApiKey = "ghp_FAKE1234abcd5678efghIJKLmnopQRstuvWXyz";
+        System.out.println("Clé de test Gitleaks : " + fakeApiKey);
+        }
+    }
+
 }
